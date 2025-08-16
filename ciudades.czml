@@ -1,0 +1,122 @@
+[
+  {
+    "id": "document",
+    "name": "Ejemplo CZML",
+    "version": "1.0",
+    "clock": {
+      "interval": "2025-08-01T00:00:00Z/2025-08-29T23:59:59Z",
+      "currentTime": "2025-08-17T01:00:00Z",
+      "multiplier": 90000
+    }
+  },
+
+  {
+    "id": "bogota-ellipse",
+    "name": "Bogotá (Elipse)",
+    "position": { "cartographicDegrees": [-74.096, 4.629, 0] },
+    "ellipse": {
+      "semiMinorAxis": 30000,
+      "semiMajorAxis": 30000,
+      "height": 0,
+      "heightReference": "RELATIVE_TO_GROUND",
+      "extrudedHeight": [
+        { "interval": "2025-08-01T00:00:00Z/2025-08-06T23:59:59Z", "number": 1000 },
+        { "interval": "2025-08-07T00:00:00Z/2025-08-13T23:59:59Z", "number": 2000 },
+        { "interval": "2025-08-14T00:00:00Z/2025-08-20T23:59:59Z", "number": 3000 },
+        { "interval": "2025-08-21T00:00:00Z/2025-08-26T23:59:59Z", "number": 4000 },
+        { "interval": "2025-08-27T00:00:00Z/2025-08-29T23:59:59Z", "number": 5000 }
+      ],
+      "extrudedHeightReference": "RELATIVE_TO_GROUND",
+      "material": { "solidColor": { "color": { "rgba": [255, 192, 203, 180] } } },
+      "outline": true,
+      "outlineColor": { "rgba": [120, 0, 0, 200] }
+    }
+  },
+
+  {
+    "id": "cali-rombo",
+    "name": "Cali (rombo)",
+    "polygon": {
+      "positions": {
+        "cartographicDegrees": [
+        -76.5191457057645,3.4444113334578272,0,
+        -76.54043171660857,3.4217926967223757,0,
+        -76.52292225607556,3.3950608925078156,0,
+        -76.49476979012049,3.420079141836274,0
+        ]
+      },
+      "height": 0,
+      "heightReference": "RELATIVE_TO_GROUND",
+      "extrudedHeight": [
+        { "interval": "2025-08-01T00:00:00Z/2025-08-06T23:59:59Z", "number": 4500 },
+        { "interval": "2025-08-07T00:00:00Z/2025-08-13T23:59:59Z", "number": 6000 },
+        { "interval": "2025-08-14T00:00:00Z/2025-08-20T23:59:59Z", "number": 7500 },
+        { "interval": "2025-08-21T00:00:00Z/2025-08-26T23:59:59Z", "number": 9000 },
+        { "interval": "2025-08-27T00:00:00Z/2025-08-29T23:00:00Z", "number": 10500 }
+      ],
+      "extrudedHeightReference": "RELATIVE_TO_GROUND",
+      "material": { "solidColor": { "color": { "rgba": [119, 221, 119, 180] } } },
+      "outline": true,
+      "outlineColor": { "rgba": [0, 100, 0, 200] }
+    }
+  },
+
+  {
+    "id": "medellin-polygon",
+    "name": "Medellín (Polígono)",
+   "polygon": {
+        "positions": {
+            "cartographicDegrees": [
+            -75.56920008293932,6.307672350365815,0,
+            -75.52525477022898,6.206995540688186,0,
+            -75.61589197769406,6.216210833030866,0
+            ]
+        },
+
+      "height": 0,
+      "heightReference": "RELATIVE_TO_GROUND",
+      "perPositionHeight": false,
+      "extrudedHeight": [
+        { "interval": "2025-08-01T00:00:00Z/2025-08-06T23:59:59Z", "number": 20800 },
+        { "interval": "2025-08-07T00:00:00Z/2025-08-13T23:59:59Z", "number": 22600 },
+        { "interval": "2025-08-14T00:00:00Z/2025-08-20T23:59:59Z", "number": 23400 },
+        { "interval": "2025-08-21T00:00:00Z/2025-08-26T23:59:59Z", "number": 24800 },
+        { "interval": "2025-08-27T00:00:00Z/2025-08-29T23:00:00Z", "number": 25600 }
+      ],
+      "extrudedHeightReference": "RELATIVE_TO_GROUND",
+      "material": { "solidColor": { "color": { "rgba": [255, 255, 153, 200] } } },
+      "outline": true,
+      "outlineColor": { "rgba": [204, 204, 0, 255] }
+    }
+  },
+
+  {
+    "id": "barranquilla-polygon",
+    "name": "Barranquilla (Polígono)",
+    "polygon": {
+      "positions": {
+        "cartographicDegrees": [
+         -74.8155766280846, 11.04355877431564,0,
+        -74.76819808781877, 11.016263338162103,0,
+        -74.77849777048526, 10.959642517706495,0,
+        -74.82347305146224, 10.96570955349875,0,
+        -74.84510238506186, 11.018622303039635,0
+        ]
+      },
+      "height": 0,
+      "heightReference": "RELATIVE_TO_GROUND",
+      "perPositionHeight": false,
+      "extrudedHeight": [
+        { "interval": "2025-08-01T00:00:00Z/2025-08-06T23:59:59Z", "number": 10000 },
+        { "interval": "2025-08-07T00:00:00Z/2025-08-13T23:59:59Z", "number": 30000 },
+        { "interval": "2025-08-14T00:00:00Z/2025-08-20T23:59:59Z", "number": 50000 },
+        { "interval": "2025-08-21T00:00:00Z/2025-08-26T23:59:59Z", "number": 70000 },
+        { "interval": "2025-08-27T00:00:00Z/2025-08-29T23:00:00Z", "number": 90000 }
+      ],
+      "extrudedHeightReference": "RELATIVE_TO_GROUND",
+      "material": { "solidColor": { "color": { "rgba": [128, 0, 128, 150] } } },
+      "outline": true,
+      "outlineColor": { "rgba": [0, 0, 139, 1] }
+    }
+  }
+]
